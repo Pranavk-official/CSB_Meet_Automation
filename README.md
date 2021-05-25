@@ -18,8 +18,7 @@ Here my required AuthUser count is 1 as my JECC mail id is logged in as the seco
 # Installation
 
 ## Windows 
-
-Download the [meetautomation.exe](https://github.com/TheAmalShibu/CSAmeetAutomation/releases/download/v1.0/meetautomation.exe) from the releases and run/execute the file.
+Releasing soon....
 
 ## Linux or Compiling Python Code
 
