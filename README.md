@@ -23,7 +23,7 @@ Releasing soon....
 
 ## Linux or Compiling Python Code
 
-Download the [CsaMeetBot.zip](https://github.com/Pranavk-official/CSB_Meet_Automation/archive/refs/tags/v1.0.zip) file from the releases and extract it's contents.
+Download the [CsbMeetBot.zip](https://github.com/Pranavk-official/CSB_Meet_Automation/archive/refs/tags/v1.0.zip) file from the releases and extract it's contents.
 The script depends or certain packages. You can install them by
 ```
 pip3 install pyautogui
