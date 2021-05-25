@@ -22,7 +22,21 @@ def noclasstime():
 def idletime():
 	join() #Supposed to be after meet links! But this serves the purpose!
 	print("Program going idle until next class")
-	time.sleep(2640)
+	time.sleep(1320)
+	print("Injecting auto exit-code with delimiter as 37 (if atleast 37 participants leave the meet you will also leave")
+	pyautogui.hotkey('ctrl','shift','j')
+	# Js code will check for the no of participants every 5 sec.
+	injection = """
+		setInterval( () => {
+			if(parseInt(document.getElementsByClassName("wnPUne")[0].innerHTML) < 30)
+				console.log("exiting meet");
+				document.getElementsByClassName("U26fgb")[2].click();
+			}, 5000);
+	"""
+	pyautogui.write(injection)
+	pyautogui.hotkey("enter")
+	pyautogui.hotkey('ctrl','shift','j')
+	time.sleep(1320)
 	print("This class has ended checking for availability of next class")
 	lineseprator()
 	return
